@@ -1,9 +1,15 @@
  [![HitCount](https://hits.dwyl.com/Monox18/BreadcrumbsJsonSymbolsAndColorSyntax.svg?style=flat-square&show=unique)](http://hits.dwyl.com/Monox18/BreadcrumbsJsonSymbolsAndColorSyntax) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Monox18/JsonSymbolsAndColorSyntax) ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Monox18/JsonSymbolsAndColorSyntax?display_date=published_at)
   
-# Json Symbols And Color Syntax JSCS
-[JSCS](https://github.com/Monox18/JsonSymbolsAndColorSyntax/) add symbols and colorful syntax to JSON files in Sublime Text 3 and 4 (ST).
+# Json Symbols and Color Syntax JSCS
+JSCS add symbols and colorful syntax to JSON files in Sublime Text 3 and 4 (ST).
 
 ![Screenshot of a JSON file with Mariana Theme Color in Sublime Text 4.](images/mariana-sample.png)
+
+## Installation
+
+The best way to install JSON Symbols and Color Syntax is through [Package Manager](https://packagecontrol.io/). Accesible via `Preferences > Package Control` or `ctrl+shift+p`.
+
+Alternatively, you can download the latest code into your Sublime Text `Packages` directory, either by cloning the repository or by downloading the [GitHub repository of JSCS](https://github.com/Monox18/JsonSymbolsAndColorSyntax).
 
 ## Coloring Syntax support
 JSCS supports syntax coloring for the default themes `Mariana` and `Monokai` with up to 10 levels of nesting. Keys are colored according to nested level, while values remain with default colors. 
