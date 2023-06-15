@@ -1,5 +1,7 @@
+ [![HitCount](https://hits.dwyl.com/Monox18/BreadcrumbsJsonSymbolsAndColorSyntax.svg?style=flat-square&show=unique)](http://hits.dwyl.com/Monox18/BreadcrumbsJsonSymbolsAndColorSyntax) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Monox18/JsonSymbolsAndColorSyntax) ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Monox18/JsonSymbolsAndColorSyntax?display_date=published_at)
+  
 # Json Symbols And Color Syntax JSCS
-JSCS: add symbols and colorful syntax to JSON files in Sublime Text 3 and 4 (ST).
+[JSCS](https://github.com/Monox18/JsonSymbolsAndColorSyntax/) add symbols and colorful syntax to JSON files in Sublime Text 3 and 4 (ST).
 
 ![Screenshot of a JSON file with Mariana Theme Color in Sublime Text 4.](images/mariana-sample.png)
 
@@ -40,3 +42,5 @@ I recommend you the [Outline package](https://github.com/warmdev/SublimeOutline)
 ## Just a simple everyday quality of life package :)
 
 ...and an excuse to start using git ☕
+
+ [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Monox18&theme=dracula&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
