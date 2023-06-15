@@ -25,6 +25,7 @@ The inheritance is as follow:
 
 ## Scopes
 Scopes are a method to split a script into lexical units. The purpose is to asign a definition to each unit in a script file. To display any unit, put your cursor anywhere in the open file and go to `Tools > Developer > Show Scope Name` or press `ctrl+shift+alt+p`. Scopes enable ST to understand the script, parse it, apply color and so on.
+
 ![Screenshot of a JSON file displaying a scope in Sublime Text 4.](images/scopes-sample.png)
 
 JSCS doesn't add new scopes neither extends the default scopes found in the YAML file `Packages/JSON/JSON.sublime-syntax`. That is entirely done and maintained by ST. Only the default scopes defined there are used by JSCS. This ensures that 1) JSCS works with .json Syntax by default (without creating a new syntax deinition), and 2) JSCS will remain compatible with future updates.
