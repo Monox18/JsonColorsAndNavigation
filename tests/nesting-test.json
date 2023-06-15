@@ -1,0 +1,41 @@
+{
+  "Level 1 Key A": "Level 1 Value",
+  "Level 1 Key B": true,
+  "Level 1 Key C": 420,
+  "Level 1 Key Object": {
+    "Level 2 key A": "Level 2 Value",
+    "Level 2 key B": false,
+    "Level 2 key C": 69,
+    "Level 2 key Object": { 
+      "Level 3 key A": "Level 3 Value",
+      "Level 3 key B": true,
+      "Level 3 key C": 1337,
+      "Level 3 key Object": {
+        "Level 4 key A": "Level 4 Value",
+        "Level 4 key B": false,
+        "Level 4 key C": 1000,
+        "Level 4 key Object": {
+          "Level 5 key A": "Level 5 Value",
+          "Level 5 key B": true,
+          "Level 5 key C": 1,
+          "Level 5 key Object": {
+            "Level 6 key A": "Level 6 Value",
+            "Level 6 key B": false,
+            "Level 6 key C": 0,
+            "Level 6 key Object": {
+              "Level 7 key A": "Level 7 Value",
+              "Level 7 key B": false,
+              "Level 7 key C": 0,
+              "Level 7 key Object": {
+                "Level 8 key A": "Level 8 Value",
+                "Level 8 key B": false,
+                "Level 8 key C": 0,
+                "Level 8 key Object": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

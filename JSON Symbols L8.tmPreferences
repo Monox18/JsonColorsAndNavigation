@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+  <dict>
+    <key>scope</key>
+    <string>
+    source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json - punctuation
+    </string>
+    <key>settings</key>
+    <dict>
+      <key>showInSymbolList</key>
+      <string>1</string>
+      <key>showInIndexedSymbolList</key>
+      <string>1</string>
+      <key>symbolTransformation</key>
+      <string>
+         s/([0-9A-Za-z_ ])+/       $0/g;
+      </string>
+    </dict>
+  </dict>
+</plist>

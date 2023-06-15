@@ -1,0 +1,47 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+  "variables": {},
+  "globals": {},
+  "rules": [
+    {
+      "name": "Level 1 keys",
+      "scope": "meta.mapping.key string",
+      "foreground": "var(blue)"
+    },
+    {
+      "name": "Level 2 keys",
+      "scope": "meta.mapping.value meta.mapping.key string",
+      "foreground": "var(pink)"
+    },
+    {
+      "name": "Level 3 keys",
+      "scope": "meta.mapping.value meta.mapping.value meta.mapping.key string",
+      "foreground": "var(blue6)"
+    },
+    {
+      "name": "Level 4 keys",
+      "scope": "meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.key string",
+      "foreground": "var(orange)"
+    },
+    {
+      "name": "Level 5 keys",
+      "scope": "meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.key string",
+      "foreground": "var(red)"
+    },
+    {
+      "name": "Level 6 keys",
+      "scope": "meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.key string",
+      "foreground": "var(green)"
+    },
+    {
+      "name": "Level 7 keys",
+      "scope": "meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.key string",
+      "foreground": "var(red2)"
+    },
+    {
+      "name": "Level 8 keys",
+      "scope": "meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.key string",
+      "foreground": "var(white)"
+    }
+  ]
+}
