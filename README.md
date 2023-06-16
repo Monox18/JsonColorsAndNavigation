@@ -9,7 +9,7 @@
 
   
 # Json Symbols and Color Syntax JSCS
-JSCS add symbols and colorful syntax to JSON files in Sublime Text 3 and 4 (ST). All built-in color themes in ST4 are supported: `Breakers`, `Celeste`, `Mariana`, `Monokai` and `Sixteen`. Also support for 3rd party custom themes can be added. See [Supporting Custom Color Themes](#supporting-for-custom-color-themes)
+JSCS add symbols and colorful syntax to JSON files in Sublime Text 3 and 4 (ST). All built-in color themes in ST4 are supported: `Breakers`, `Celeste`, `Mariana`, `Monokai` and `Sixteen`. Also support for 3rd party custom themes can be added. See [Supporting Custom Color Themes](#supporting-custom-color-themes)
 
 ![Screenshot of a JSON file with Mariana Theme Color in Sublime Text 4.](images/mariana-sample.png)
 
