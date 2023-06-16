@@ -9,9 +9,10 @@
 
   
 # Json Symbols and Color Syntax JSCS
-JSCS add symbols and colorful syntax to JSON files in Sublime Text 3 and 4 (ST).
+JSCS add symbols and colorful syntax to JSON files in Sublime Text 3 and 4 (ST). All built-in color themes in ST4 are supported: `Breakers`, `Celeste`, `Mariana`, `Monokai` and `Sixteen`. Also support for 3rd party custom themes can be added. See [Supporting Custom Color Themes](#supporting-for-custom-color-themes)
 
 ![Screenshot of a JSON file with Mariana Theme Color in Sublime Text 4.](images/mariana-sample.png)
+
 
 ## Installation
 
@@ -60,8 +61,8 @@ I recommend you the [Outline package](https://github.com/warmdev/SublimeOutline)
 
 On contrary, JSCS merely extends ST current syntax definitions and color schemes to remain compatible with other plugins. Thus, no new syntax neither new color themes are installed.
 
-## Do you have a custom color theme installed?
-No problem. You can eaaasily extend their syntax to include JSCS along with your custom color theme.
+## Supporting Custom Color Themes
+You can eaaasily extend a 3rd party syntax to include JSCS along with your custom color theme. As long as they have extended (not replaced) ST4 Json syntax do this:
 1) Make a copy of `Monokai.sublime-color-scheme`. Paste it in the JSCS package folder or your `Packages/User` folder.
 2) Change its name to the name of the custom color theme you are using. The name must match for ST to detect it and apply the changes. I.e if you installed `Monokai++` custom theme then the new file name would be `Monokai++.sublime-color-scheme`
 3) Edit the `"foreground": "var(purple)"` properties to match those used by your theme. To find the variables used by your current them go to `Preferences > Customize Color Theme`. Use any of the values in the key `"variables"`. In ST, file modifications are live. Each time you save, you will instantly see changes in your open ST json files.
