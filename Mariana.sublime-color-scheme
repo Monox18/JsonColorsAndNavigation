@@ -1,4 +1,3 @@
-// Documentation at https://www.sublimetext.com/docs/color_schemes.html
 {
   "variables": {},
   "globals": {},
@@ -31,17 +30,17 @@
     {
       "name": "Level 6 keys",
       "scope": "meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.key string",
-      "foreground": "var(green)"
+      "foreground": "var(red2)"
     },
     {
       "name": "Level 7 keys",
       "scope": "meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.key string",
-      "foreground": "var(red2)"
+      "foreground": "var(white)"
     },
     {
       "name": "Level 8 keys",
       "scope": "meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.value meta.mapping.key string",
-      "foreground": "var(white)"
+      "foreground": "var(green)"
     }
   ]
 }
