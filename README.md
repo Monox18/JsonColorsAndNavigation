@@ -1,4 +1,12 @@
- [![HitCount](https://hits.dwyl.com/Monox18/BreadcrumbsJsonSymbolsAndColorSyntax.svg?style=flat-square&show=unique)](http://hits.dwyl.com/Monox18/BreadcrumbsJsonSymbolsAndColorSyntax) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Monox18/JsonSymbolsAndColorSyntax) ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Monox18/JsonSymbolsAndColorSyntax?display_date=published_at)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Monox18/JsonSymbolsAndColorSyntax)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Monox18/JsonSymbolsAndColorSyntax?display_date=published_at)
+![GitHub last commit](https://img.shields.io/github/last-commit/Monox18/JsonSymbolsAndColorSyntax)
+![GitHub repo size](https://img.shields.io/github/repo-size/Monox18/JsonSymbolsAndColorSyntax)
+![GitHub issues](https://img.shields.io/github/issues/Monox18/JsonSymbolsAndColorSyntax)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Monox18/JsonSymbolsAndColorSyntax)
+![GitHub](https://img.shields.io/github/license/Monox18/JsonSymbolsAndColorSyntax)
+[![HitCount](https://hits.dwyl.com/Monox18/BreadcrumbsJsonSymbolsAndColorSyntax.svg?style=flat-square&show=unique)](http://hits.dwyl.com/Monox18/BreadcrumbsJsonSymbolsAndColorSyntax)
+
   
 # Json Symbols and Color Syntax JSCS
 JSCS add symbols and colorful syntax to JSON files in Sublime Text 3 and 4 (ST).
