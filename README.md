@@ -54,8 +54,22 @@ I recommend you the [Outline package](https://github.com/warmdev/SublimeOutline)
 
 ![Screenshot of a JSON file with the Outline Package in Sublime Text 4.](images/outline-sample.png)
 
+## Inspired by: 
+* [JSON Key-Value](https://github.com/aurule/json-kv) which creates a new syntax definition requiring you to use `JSON Key Value` syntax.
+* [Monokai JSON+](https://github.com/ColibriApps/MonokaiJsonPlus) which creates a new Color Scheme requiring you to use `Monokai JSON+` color scheme. 
+
+On contrary, JSCS merely extends ST current syntax definitions and color schemes to remain compatible with other plugins. Thus, no new syntax neither new color themes are installed.
+
+## Do you have a custom color theme installed?
+No problem. You can eaaasily extend their syntax to include JSCS along with your custom color theme.
+1) Make a copy of `Monokai.sublime-color-scheme`. Paste it in the JSCS package folder or your `Packages/User` folder.
+2) Change its name to the name of the custom color theme you are using. The name must match for ST to detect it and apply the changes. I.e if you installed `Monokai++` custom theme then the new file name would be `Monokai++.sublime-color-scheme`
+3) Edit the `"foreground": "var(purple)"` properties to match those used by your theme. To find the variables used by your current them go to `Preferences > Customize Color Theme`. Use any of the values in the key `"variables"`. In ST, file modifications are live. Each time you save, you will instantly see changes in your open ST json files.
+4) Boom done. 
+5) Optionally, you can pull request that file to this repo and I will merge it :)
+
 ## Just a simple everyday quality of life package :)
 
 ...and an excuse to start using git ☕
 
- [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Monox18&theme=dracula&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Monox18&theme=dracula&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
