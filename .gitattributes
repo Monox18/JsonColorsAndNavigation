@@ -28,5 +28,5 @@
 *.sublime-color-scheme  linguist-detectable 
 *.tmPreferences         linguist-detectable 
 # Exlude sample codes.
-samples/*               linguist-documentation 
+/samples/*               linguist-documentation 
 
