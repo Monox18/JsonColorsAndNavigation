@@ -1,12 +1,12 @@
 {
   "Level 1 Key A": "Level 1 Value",
-  "Level 1 Key B": true,
+  "Super long strinnnnnnnnnnnnnnnnng": true,
   "Level 1 Key C": 420,
   "Level 1 Key Object": {
     "Level 2 key A": "Level 2 Value",
-    "Level 2 key B": false,
-    "Level 2 key C": 69,
-    "Level 2 key Object": { 
+    "node_modules/@babel/code-frame": false,
+    "Level 2 key Obje": 69,
+    "level_2 key Object": {
       "Level 3 key A": "Level 3 Value",
       "Level 3 key B": true,
       "Level 3 key C": 1337,
@@ -37,5 +37,6 @@
         }
       }
     }
-  }
+  },
+  "Level 1 Key E": "Level 1 Value"
 }

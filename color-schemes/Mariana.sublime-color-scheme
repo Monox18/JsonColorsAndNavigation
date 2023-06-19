@@ -15,7 +15,7 @@
     {
       "name": "Level 3 keys",
       "scope": "meta.mapping.value meta.mapping.value meta.mapping.key string",
-      "foreground": "var(blue6)"
+      "foreground": "var(white3)"
     },
     {
       "name": "Level 4 keys",

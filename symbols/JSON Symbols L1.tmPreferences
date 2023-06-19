@@ -13,7 +13,7 @@
       <string>1</string>
       <key>symbolTransformation</key>
       <string>
-         s/([0-9A-Za-z_ ])+/$0/g;
+        s/(?&lt;=^.{20}).*/…/;
       </string>
     </dict>
   </dict>

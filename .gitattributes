@@ -21,12 +21,11 @@
 # GitHub uses Linguist to enable language detection: https://github.com/github-linguist/linguist/
 # Guide at https://dev.to/cicirello/configuring-githubs-linguist-to-improve-repository-language-reporting-295b on how to override
 
-# .sublime.color-scheme files are JSON files. But Linguist languages.yaml doesn't seem to recognize it. 
-# .tmPreferences are XML files. 
+# .sublime.color-scheme files are JSON files. But Linguist languages.yaml doesn't seem to recognize it, and .tmPreferences are XML files. 
 *.sublime-color-scheme  linguist-language=json
 # Both JSON and XML languages are Data languages which are disabled by default. So make them linguist-detectable.
 *.sublime-color-scheme  linguist-detectable 
 *.tmPreferences         linguist-detectable 
 # Exlude sample codes.
-/samples/*               linguist-documentation 
-
+/samples/*              linguist-documentation 
+*.md                    linguist-documentation  
